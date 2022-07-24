@@ -22,6 +22,7 @@ noremap <A-Right> :+tabmove<cr>
 
 " nerd-tree
 map <S-E> :NERDTree<cr>
+let NERDTreeShowHidden=1
 
 " fuzzy-finder
 map <C-P> :Files<CR>
